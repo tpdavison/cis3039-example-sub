@@ -9,6 +9,7 @@
     "demo:projection": "npm run build && node dist/scripts/demo-projection.js",
     "demo:apply": "npm run build && node dist/scripts/demo-apply.js",
     "demo:event": "npm run build && node dist/scripts/demo-event.js",
+    "demo:delivery": "npm run build && node dist/scripts/demo-delivery.js",
     "watch": "tsc -w",
     "clean": "rimraf dist",
     "prestart": "npm run clean && npm run build",
